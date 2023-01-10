@@ -66,3 +66,24 @@ right: 100px;
     height: 25px;
 }
 
+footer.backgroundimg {
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+    background-color: black;
+    background-image: url(Assets/FotoerImg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+footer a {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+}
+
+main {
+    min-height: calc(100vh - 452px);
+}
