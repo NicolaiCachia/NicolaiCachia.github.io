@@ -87,3 +87,30 @@ footer a {
 main {
     min-height: calc(100vh - 452px);
 }
+
+
+footer .Logos{
+    position: absolute;
+    bottom: 95px;
+    right: 250px;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.354);
+}
+
+footer .Logos img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+footer .Fotterhome {
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+    background-color: rgba(216, 216, 216, 0.829);
+    font-size: 1.6em;
+    text-align: center;
+    padding-top: 10px;  
+    color: black;  
+}
