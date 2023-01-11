@@ -1,0 +1,32 @@
+
+
+
+/******Images*******/
+body{
+    margin: 0;
+}
+
+.image-grid{
+    align-content: center;
+}
+
+.image-grid ul {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+align-content: center;
+}
+
+.image-grid ul li img{
+    height: 400px;
+
+
+
+}
+.image-grid ul li{
+    list-style: none;
+}
+
+/*********/
