@@ -21,14 +21,14 @@
                 </header>
                 
                 <!-- Profile Dropdown -->
-                
                 <div class="dropdown">
-                    <select name="" id="">
-                        <option value="Profile">Profile</option>
-                        <option value="Log In">Log In</option>
-                        <option value="Log Out">Log Out</option>
-                    </select>
-                </div>
+                    <button class="dropbtn">Dropdown</button>
+                    <div class="dropdown-content">
+                        <a href="Index.html">Profile</a>
+                        <a href="LogIn.html">Log In</a>
+                        <a href="LogOut.html">Log Out</a>
+                    </div>
+                    </div>
                 
             </div>
         </div>
@@ -57,32 +57,48 @@
     <main>
 
         
-
-
-
-<div id="id01" class="modal">
-
-
-
-    <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+        <fieldset>
+            <form action="#" method="get">
         
-    <button type="submit">Login</button>
-    <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-    </div>
+                <!-- For search engin readability, each input requires a label
+                    A label can use the "for" atribute to specify what it is linked to
+                -->
+                <label for="UserName">Username:</label>
+                <br>
+                    <!--
+                        An in put can take many diffrent forms (based on the "type" attribute)
+                        They all requier a "name" to associate values
+                        and an "id" to link with the label
+                    -->
+                <input type="text" name="UserName" id="UserName" required>
+        
+                <br>*
+        
+                <!-- we can also add an email field -->
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" name="email" id="email" required>
+        
+                <br><br>
+                
+                <!-- Password can also be protected/hidden -->
+                <label for="Password">Password</label>
+                <br>
+                <input type="password" name="password" id="password" required>
+                    <br>
+                    <label for="Password">Confirm Password</label>
+                <br>
+                <input type="password" name="password" id="password" required>
+                <br>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <button type="submit">Save</button>
+                <button type="reset">No thx</button>
+            </fieldset>
 
-    <div class="container" style="background-color:#f1f1f1">
-    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-    </form>
-</div>
+
+
 
 
 
