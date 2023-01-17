@@ -11,7 +11,7 @@
 .container .row{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 - 0.5rem;
+    margin: 0 -0.5rem;
 }
 .container .row [class*="col-"] {
     margin: 0 0.5rem;
